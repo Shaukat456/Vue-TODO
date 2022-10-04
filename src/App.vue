@@ -5,11 +5,15 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import BYthere from './components/BYthere.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    // eslint-disable-next-line vue/no-unused-components
+    BYthere
     
   }
 }
